@@ -93,7 +93,7 @@ import Navbar from './Navbar';
   
       products.map((product) => {
         cartTotal = cartTotal + product.qty * product.price
-      })
+      });
   
       return cartTotal;
     }
